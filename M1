@@ -9,6 +9,6 @@ def B1():
 def X1():
     a = "Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))"
     b = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
-    c = ";[FBAN/Orca-Android;FBAV/47.0.0.35.83;FBPN/com.facebook.orca;FBLC/en_GB;FBBV/389728774;FBCR/Verizon_Wireless;FBMF/Xiaomi;FBBD/Xiaomi;FBDV/2210132G;FBSV/7.0.1;FBCA/armeabi-v7a:armeabi;FBDM/{density=4.0,width=1440,height=2560};FB_FW/1;FBRV/560007353]"
+    c = ";[FBAN/FB4A;FBAV/196.0.0.72;FBBV/734910424;FBDM/{density=2.75,width=1080,height=2131};FBLC/en_PH;FBRV/605426030;FBCR/Movistar;FBMF/Xiaomi;FBBD/Xiaomi;FBPN/com.facebook.katana;FBDV/M1901F7S;FBSV/12.2.1;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
     ua = a+b+c
     return ua
