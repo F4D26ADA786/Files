@@ -3,7 +3,7 @@ def X1():
     a = 'Davik/2.1.0 (Linux; U; Android '+str(random.randrange(5,12))+"; "+str(model)+'; Build/QP1A'+"."+str(random.randrange(111111,999999))+"."+str(random.randrange(111,999))+"))"
     b = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
     net = random.choice(["Telenor","Zong","Jazz","MTN Nigeria","Nepal Telecom","Airtel","Claro BR","Sprint","H2O","T-Mobile","U.S. Cellular","Verizon","null","Ooredoo"])
-    c = ";[FBAN/Orca-Android;FBAV/196.0.0.54;FBPN/com.facebook.orca;FBLC/bg_BG;FBBV/190728902;FBCR/"+net+";FBMF/TECNO;FBBD/TECNO;FBDV/TECNO KC3;FBSV/9.0.2;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=720,height=1444};FB_FW/1;FBRV/188792213]"
+    c = ";[FBAN/Orca-Android;FBAV/196.0.0.27;FBPN/com.facebook.orca;FBLC/en_US;FBBV/575810016;FBCR/HUMANS;FBMF/OPPO;FBBD/OPPO;FBDV/CPH1717;FBSV/12.4.5;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.0,width=1280,height=1440};FB_FW/1;FBRV/806593083;]"
     d = a+b+c
     e = b+c
     ua = random.choice([d,e])
