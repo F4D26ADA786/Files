@@ -3,7 +3,7 @@ def X1():
     a = 'Davik/2.1.0 (Linux; U; Android '+str(random.randrange(5,12))+"; "+str(model)+'; Build/QP1A'+"."+str(random.randrange(111111,999999))+"."+str(random.randrange(111,999))+"))"
     b = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
     net = random.choice(["Telenor","Zong","Jazz","MTN Nigeria","Nepal Telecom","Airtel","Claro BR","Sprint","H2O","T-Mobile","U.S. Cellular","Verizon","null","Ooredoo"])
-    c = ";[FBAN/FB4A;FBAV/196.0.0.56;FBBV/334683543;FBDM/{density=3.0,width=1080,height=2137};FBLC/en_CA;FBRV/169718964;FBCR/SUN;FBMF/OPPO;FBBD/OPPO;FBPN/com.facebook.katana;FBDV/CPH1939;FBSV/10.2.2;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
+    c = ";[FBAN/FB4A;FBAV/196.0.0.69;FBBV/654519483;FBDM/{density=3.0,width=1080,height=2400};FBLC/fr_FR;FBRV/250986361;FBCR/TIM 41;FBMF/Xiaomi;FBBD/Xiaomi;FBPN/com.facebook.katana;FBDV/M2002J9G;FBSV/10.0.1;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
     d = a+b+c
     e = b+c
     ua = random.choice([d,e])
