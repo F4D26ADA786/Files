@@ -1,3 +1,20 @@
+def X1():
+    model2 = random.choice(["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"])
+    a = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))'
+    model1 = random.choice(["M2007J1SC","M2002J9G","M2001J2G","M2006J10C","M2002F4LG","M2007J17G"])
+    fban = "[FBAN/FB4A"
+    fbav = "FBAV/"+str(random.randint(111,399))+'.0.0.15.118'
+    fbbv = "FBBV/253310653;"
+    fblc = "FBLC/en_GB"
+    fbcr = "FBCR/null"
+    fbnp = "FBNP/com.facebook.katana"
+    fbdv = "FBDV/"+model1
+    fbsv = "FBSV/10"
+    fbdm = "FBDM/{density=3.0,width=1080,height=2340};]" 
+    ua = f"{a}{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
+    return ua
+
+
 def X2():
     ua = None
     return ua
@@ -18,7 +35,7 @@ def X2():
     e = b+c
     ua = random.choice([d,e])
     return ua
-def X1():
+def X11():
     a = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
     b = ";[FBAN/FB4A;FBAV/196.0.0.89;FBBV/833027608;FBDM/{density=3.0,width=720,height=720};FBLC/pt_BR;FBRV/651429689;FBCR/Jio 4G;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A9100;FBSV/8.0.0;nullFBCA/armeabi-v7a:armeabi;]"
     ua = a+b
