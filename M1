@@ -9,8 +9,8 @@ def X1():
     fbcr = "FBCR/null"
     fbnp = "FBNP/com.facebook.katana"
     fbdv = "FBDV/"+model1
-    fbsv = "FBSV/10"
-    fbdm = "FBDM/{density=3.0,width=1080,height=2340};]" 
+    fbsv = "FBSV/11"
+    fbdm = "FBDM/{density=2.0,width=720,height=1600};]" 
     ua = f"{a}{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
     return ua
 
