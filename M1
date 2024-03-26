@@ -1,10 +1,10 @@
 def X1():
-    model2 = random.choice(["GT-i9295","SHV-E330S","GT-i9506","GT-i9515L","GT-i9515","GT-i9500","SGH-i337","SGH-i337","GT-i9502"])
-    a = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {model2} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))'
+    model2 = random.choice(["SM-A426B","SM-A125F","SM-A025F","SM-A022F","SM-A013F","SM-A032F"])
+    a = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(10,13)}; {model2} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))'
     fban = "[FBAN/FB4A"
     fbav = "FBAV/"+str(random.randint(40,320))+'.0.0.'+str(random.randrange(10,98))+"."+str(random.randint(11,229))
     fbbv = "FBBV/"+str(random.randint(222222222,888888888))
-    fbdm = "FBDM/{density=3.0,width=1080,height=2340}"
+    fbdm = "FBDM/{density=2.0"+","+"width="+str(random.randint(720,1280))+","+"height="+str(random.randint(1280,1600))+"}"
     fblc = "FBLC/"+random.choice(["en_US","en_GB"])
     fbcr = "FBCR/"+random.choice(["Verizon Wireless","T-Mobile","Verizon","Vodafone","TELCEL","Airtel","Sprint","AT&-T","null","U.S. Cellular","Nepal Telecom"])
     fbmf = "FBMF/samsung"
