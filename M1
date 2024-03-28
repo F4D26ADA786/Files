@@ -1,19 +1,31 @@
 def X1():
-    model2 = random.choice(["SM-S711B","SM-M346B","SM-A245F","SM-M146B","SM-M546B"])
-    a = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(10,13)}; {model2} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))'
+    model2 = random.choice(["SM-G925F","SM-G900W8","SM-G925V","GT-I9505","SM-G920T"])
+    a = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(6,13)}; {model2} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))'
     fban = "[FBAN/FB4A"
-    fbav = "FBAV/"+str(random.randint(259,399))+'.0.0.'+str(random.randrange(56,98))+"."+str(random.randint(22,229))
-    fbbv = "FBBV/"+str(random.randint(222222222,888888888))
-    fbdm = "FBDM/{density=3.0,width=1080,height=2340}"
+    fbav = "FBAV/"+str(random.randint(111,399))+'.0.0.29.109'
+    fbbv = "FBBV/58682818;"
     fblc = "FBLC/en_GB"
-    fbcr = "FBCR/Airtel"
-    fbmf = "FBMF/samsung"
-    fbbd = "FBBD/samsung"
-    fbpn = "FBPN/com.facebook.katana"
+    fbcr = "FBCR/null"
+    fbnp = "FBNP/com.facebook.katana"
     fbdv = "FBDV/"+model2
-    fbsv = "FBSV/13"
-    fbca = "FBOP/19;FBCA/arm64-v8a:null;]"
-    ua = f"{a}{fban};{fbav};{fbbv};{fbdm};{fblc};{fbcr};{fbmf};{fbbd};{fbpn};{fbdv};{fbsv};{fbca}"
+    fbsv = "FBSV/5.1.1"
+    fbdm = "FBDM/{density=1.5,width=720,height=1431};]" 
+    ua = f"{a}{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
+    return ua
+
+def A2():
+    model2 = random.choice(["SM-G925F","SM-G900W8","SM-G925V","GT-I9505","SM-G920T"])
+    a = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(6,13)}; {model2} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))'
+    fban = "[FBAN/FB4A"
+    fbav = "FBAV/"+str(random.randint(111,399))+'.0.0.29.109'
+    fbbv = "FBBV/58682818;"
+    fblc = "FBLC/en_GB"
+    fbcr = "FBCR/null"
+    fbnp = "FBNP/com.facebook.katana"
+    fbdv = "FBDV/"+model2
+    fbsv = "FBSV/5.1.1"
+    fbdm = "FBDM/{density=1.5,width=720,height=1431};]" 
+    ua = f"{a}{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
     return ua
 
 
