@@ -1,5 +1,5 @@
 def X1():
-    model2 = random.choice(["SM-G925F","SM-G900W8","SM-G925V","GT-I9505","SM-G920T"])
+    model2 = random.choice(["XT2341","XT2343","XT2347","XT2307","XT2321"])
     a = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(6,13)}; {model2} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))'
     fban = "[FBAN/FB4A"
     fbav = "FBAV/"+str(random.randint(111,399))+'.0.0.29.109'
@@ -8,8 +8,8 @@ def X1():
     fbcr = "FBCR/null"
     fbnp = "FBNP/com.facebook.katana"
     fbdv = "FBDV/"+model2
-    fbsv = "FBSV/5.1.1"
-    fbdm = "FBDM/{density=1.5,width=720,height=1431};]" 
+    fbsv = "FBSV/13"
+    fbdm = "FBDM/{density=3.0,width=1080,height=2640};]" 
     ua = f"{a}{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
     return ua
 def B1():
