@@ -1,3 +1,6 @@
 def X1():
-    g = "[FBAN/FB4A;FBAV/196.0.0.67;FBBV/266989806;FBDM/{density=3.0,width=1080,height=1776};FBLC/en_GB;FBRV/557466631;FBCR/Meteor;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A415F;FBSV/12.2.3;nullFBCA/armeabi-v7a:armeabi;]"
-    return "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";"+g
+    a = 'Davik/2.1.0 (Linux; U; Android '+str(random.randrange(5,12))+"; "+str(model)+'; Build/QP1A'+"."+str(random.randrange(111111,999999))+"."+str(random.randrange(111,999))+"))"
+    b = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
+    c = ";[FBAN/Orca-Android;FBAV/196.0.0.96;FBPN/com.facebook.orca;FBLC/dsb_DE;FBBV/793687841;FBCR/US Cellular;FBMF/vivo;FBBD/vivo;FBDV/vivo 1933;FBSV/13.3.4;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.0,width=720,height=1280};FB_FW/1;FBRV/564988243;]"
+    ua = a+b+c
+    return ua
