@@ -1,3 +1,13 @@
 def X1():
-    g = "[FBAN/FB4A;FBAV/24.0.0.15.43;FBBV/20454115;FBDM/{density=3.2,width=540,height=960};FBLC/ar_OM;FBRV/573945660;FB_FW/2;FBCR/Freedom Mobile;FBMF/Vivo;FBBD/Vivo;FBPN/com.facebook.katana;FBDV/Y51L;FBSV/5.0.2;FBOP/19;FBCA/armeabi-v7a:armeabi;]"
-    return "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+";"+g
+    model = random.choice(["RMX3890","RMX3867","RMX3782","RMX3142","RMX3834","RMX2176","RMX3750","RMX3706"])
+    fban = "[FBAN/FB4A"
+    fbav = "FBAV/"+str(random.randint(111,399))+'.0.0.29.109'
+    fbbv = "FBBV/58682818;"
+    fblc = "FBLC/en_GB"
+    fbcr = "FBCR/null"
+    fbnp = "FBNP/com.facebook.katana"
+    fbdv = "FBDV/"+model
+    fbsv = "FBSV/13"
+    fbdm = "FBDM/{density=3.0,width=1080,height=2126};]" 
+    ua = f"{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
+    return ua
