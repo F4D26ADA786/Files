@@ -13,7 +13,7 @@ def X3():
     return ua
 def X1():
     a = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+".0.0."+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
-    b = ";[FBAN/FB4A;FBAV/323.0.0.46.119;FBBV/451410611;FBDM/{density=2.0,width=720,height=1600};FBLC/en_US;FBRV/451410611;FBCR/AT&T and T-Mobile;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-F127G;FBSV/11;FBOP/19;FBCA/arm64-v8a:null;]"
+    b = ";[FBAN/FB4A;FBAV/61.0.0.15.69;FBBV/20748110;FBDM/{density=0.75,width=240,height=320};FBLC/en_US;FBCR/T-Mobile US;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/GT-S5302;FBSV/2.3.6;nullFBCA/armeabi-v7a:armeabi;]"
     ua = a+b
     return ua
 def X2():
