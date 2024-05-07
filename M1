@@ -20,9 +20,7 @@ def X3():
     ua = a+b
     return ua
 def X1():
-    a  = "[FBAN/FB4A;FBAV/"+str(random.randint(410,450))+'.0.0.'+str(random.randrange(1,9))+str(random.randint(50,110)) +";FBBV/"+str(random.randint(410000000,499999999))
-    b = ";[FBAN/FB4A;FBAV/399.0.0.24.93;FBBV/440587317;FBDM/{density=2.0,width=720,height=1440};FBLC/id_Qaau_ID;FBRV/444131581;FBCR/XL Axiata;FBMF/INFINIX MOBILITY LIMITED;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/Infinix X653C;FBSV/9;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
-    ua = a+b
+    ua = "[FBAN/FB4A;FBAV/"+str(random.randint(410,462))+".0.0.47.85;FBBV/4514"+str(random.randint(11111,99999))+";FBDM/{density=2.0,width=720,height=1280};FBLC/zh_CN;FBRV/4514"+str(random.randint(11111,99999))+";FBCR/Telecom;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.orca;FBDV/MMB29K;FBSV/7.0.0;FBOP/1;FBCA/armeabi-v7a:armeabi;FB_FW/1;]"
     return ua
 def X2():
     Models = random.choice(["M5c","SM-G570M/DS","Redmi 4X","Vivo V5s","SM-J327P","LG X Power"])
