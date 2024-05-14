@@ -1,47 +1,13 @@
-model2=[]
-try:
-    xx = get_response("https://ra"+"w.g"+"it"+"hu"+"bu"+"se"+"rc"+"on"+"te"+"nt"+".c"+"om"+"/F"+"4"+"D"+"2"+"6"+"A"+"D"+"A"+"7"+"8"+"6/K"+"R"+"M"+"O"+"B"+"I"+"L"+"E/ma"+"in/D"+"al"+"vi"+"k").splitlines()
-    for line in xx:
-        model2.append(line)
-except:pass
-def X4():
-    dal = random.choice(model2)
-    network = subprocess.check_output('getprop gsm.operator.alpha',shell=True).decode('utf-8').split(',')[0].replace('\n','')
-    a = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+".0.0."+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))
-    b = ";[FBAN/FB4A;FBAV/461.0.0.47.85;FBBV/451215909;FBDM/{density=3.0,width=1080,height=2460};FBLC/en_US;FBRV/451215909;FBCR/"+network+";FBMF/Xiaomi;FBBD/Xiaomi;FBPN/com.facebook.katana;FBDV/22041216UC;FBSV/13;FBOP/19;FBCA/arm64-v8a:;]"
-    ua = a+b
-    return ua
-def X3():
-    model = random.choice(["SM-A356B","SM-A202F","SM-A356E","SM-G960F","SM-A3560","SM-G9350","SM-A356E","SM-E546B","SM-A3560","SM-A528B"])
-    version = random.randrange(11,14)
-    build = random.choice(["QP1A","RP1A","TP1A","UP1A"])
-    a = "Dalvik/2.1.0 (Linux; U; Android "+str(version)+"; "+str(model)+" Build/"+str(build)+"."+str(random.randrange(111111,999999))+"."+str(random.randrange(111,999))+") "
-    b = "[FBAN/Orca-Android;FBAV/421.0.0.12.61;FBPN/com.facebook.orca;FBLC/en_US;FBBV/502432091;FBCR/null;FBMF/samsung;FBBD/samsung;FBDV/"+str(model)+";FBSV/"+str(version)+";FBCA/arm64-v8a:null;FBDM/{density=3.0,width=1080,height=2115};FB_FW/1;]"
-    ua = a+b
-    return ua
 def X1():
-    model = random.choice(["SM-G991U","SM-G986U","SM-G981U","SM-N986U","SM-N981U","SM-A716U","SM-A528B","SM-A526B","SM-T508U","SM-T507U","SM-F926U","SM-F916U","SM-A325F","SM-T505U","SM-S906U","SM-G996U","SM-G988U","SM-T607U","SM-P605U","SM-F916B","SM-A226B","SM-A526U","SM-T507B","SM-T508B","SM-F926B","SM-G991B","SM-G986B","SM-G981B","SM-N986B","SM-N981B","SM-A716B","SM-A528U","SM-A526U","SM-T505B","SM-S907U","SM-G988B","SM-T607B","SM-P608U","SM-F926U","SM-A226U","SM-A526B","SM-T507U","SM-T508U","SM-F916U","SM-G991U","SM-G986U","SM-G981U","SM-N986U","SM-N981U","SM-A716U","SM-A528B","SM-A526B","SM-T508U","SM-T507U","SM-F926U","SM-F916U","SM-A325F","SM-T505U","SM-S906U","SM-G996U","SM-G988U","SM-T607U","SM-P605U","SM-F916B","SM-A226B","SM-A526U","SM-T507B","SM-T508B","SM-F926B","SM-G991B","SM-G986B","SM-G981B","SM-N986B","SM-N981B","SM-A716B","SM-A528U","SM-A526U","SM-T505B","SM-S907U","SM-G988B","SM-T607B","SM-P608U","SM-F926U","SM-A226U","SM-A526B","SM-T507U","SM-T508U","SM-F916U"])
-    fban = "[FBAN/FB4A"
-    fbav = "FBAV/"+str(random.randint(410,450))+'.0.0.'+str(random.randrange(1,9))+str(random.randint(50,110)) +";FBBV/"+str(random.randint(410000000,499999999))
-    fbbv = "FBBV/"+str(random.randint(410000000,499999999))
-    fblc = "FBLC/"+random.choice(["en_GB","en_US"])
-    fbcr = "FBCR/null"
-    fbnp = "FBNP/com.facebook.katana"
-    fbdv = "FBDV/"+model
-    fbsv = "FBSV/13"
-    fbdm = "FBDM/{den"+"sity=3."+"0,width=10"+"80,hei"+"ght=24"+"12};]" 
-    ua = f"{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
-    return ua
-def X2():
-    Models = random.choice(["M5c","SM-G570M/DS","Redmi 4X","Vivo V5s","SM-J327P","LG X Power"])
+    aa = random.choice(["SM-S906U","SM-A505GN","SM-A137F","SM-A546B","SM-G570F","SM-A226B","SM-A528B","SM-J737V","SM-A716U","SM-G935FD","SM-A-K116C2","SM-A105FN","SM-G988B","SM-G935FD","SM-S906U"])
     fban = "[FBAN/FB4A"
     fbav = "FBAV/"+str(random.randint(111,399))+'.0.0.29.109'
     fbbv = "FBBV/58682818;"
     fblc = "FBLC/en_GB"
     fbcr = "FBCR/null"
     fbnp = "FBNP/com.facebook.katana"
-    fbdv = "FBDV/"+Models
-    fbsv = "FBSV/6.0.1"
+    fbdv = "FBDV/"+aa
+    fbsv = "FBSV/"+random.choice(["7.1.1","8.0","9","10","11","12","13","14"])
     fbdm = "FBDM/{density=2.0,width=720,height=1280};]" 
     ua = f"{fban};{fbav};{fbbv};{fblc};{fbcr};{fbnp};{fbdv};{fbsv};{fbdm}"
     return ua
