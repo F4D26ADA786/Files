@@ -1,5 +1,5 @@
 def X1():
-    model = random.choice(["SM-A716B","SM-A528U","SM-A526U","SM-T505B","SM-S907U","SM-G988B","SM-T607B","SM-P608U","SM-F926U","SM-A226U","SM-A526B","SM-T507U","SM-T508U","SM-F916U"])
+    model = random.choice(["SM-G981L", "SM-N986W", "SM-A716S", "SM-A528N", "SM-A526N", "SM-T508N", "SM-T507N", "SM-F926K", "SM-F916L", "SM-A325N"])
     fban = "[FBAN/FB4A"
     fbav = "FBAV/"+str(random.randint(410,450))+'.0.0.'+str(random.randrange(1,9))+str(random.randint(50,110)) +";FBBV/"+str(random.randint(410000000,499999999))
     fbbv = "FBBV/"+str(random.randint(410000000,499999999))
